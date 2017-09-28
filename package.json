@@ -1,0 +1,14 @@
+{
+  "name": "schedule-mail-lambda",
+  "version": "1.0.0",
+  "description": "Send mail on defined schedule from cloudwatch",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Mohamed Labouardy",
+  "license": "ISC",
+  "dependencies": {
+    "mailgun-js": "^0.13.1"
+  }
+}
